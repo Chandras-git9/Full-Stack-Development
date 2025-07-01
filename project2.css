@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+.apply{
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 5px 6px rgb(red, green, blue);
+    border-radius: 10px;
+}
+.title{
+    font-size: 20px;
+}
+.form-controller{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    grid-gap: 20px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.label{
+    font-size: 15px;
+}
